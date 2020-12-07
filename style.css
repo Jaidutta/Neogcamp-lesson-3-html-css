@@ -15,8 +15,7 @@ hr {
 
 /* container */
 .container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0rem 1rem;
 }
 
 .container-center {
@@ -90,10 +89,26 @@ hr {
 }
 
 .hero .hero-heading {
+  text-align: center;
   padding-top: 1rem;
   color: var(--dark-gray);
 }
 
 .primary-text {
   color: var(--primary-color);
+}
+
+
+/* Section */
+
+.section {
+  padding: 2rem;
+}
+.section h3 {
+  text-align: center;
+  
+}
+
+.ow {
+  background-color: #F3F4F6;
 }
